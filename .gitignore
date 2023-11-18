@@ -1,0 +1,12 @@
+.env
+output.png
+.vscode/PythonImportHelper-v2-Completion.json
+files/test.txt
+__pycache__/funccalls.cpython-311.pyc
+__pycache__/function_calls.cpython-311.pyc
+__pycache__/image_process.cpython-311.pyc
+__pycache__/openaiclient.cpython-311.pyc
+__pycache__/openaifuncs.cpython-311.pyc
+__pycache__/pine.cpython-311.pyc
+__pycache__/prompts.cpython-311.pyc
+realtimesst.log
