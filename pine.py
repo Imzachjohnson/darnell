@@ -9,12 +9,10 @@ from haystack.nodes import (
 )
 from haystack.pipelines import Pipeline
 from haystack.pipelines import DocumentSearchPipeline
-from haystack.nodes import DensePassageRetriever, EmbeddingRetriever
+from haystack.nodes import EmbeddingRetriever
 from haystack.document_stores import PineconeDocumentStore
-from dotenv import load_dotenv
-from RealtimeSTT import AudioToTextRecorder
 # Load environment variables
-load_dotenv()
+
 
 # Initialize converters
 text_converter = TextConverter()

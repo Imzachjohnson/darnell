@@ -1,3 +1,7 @@
+
+from dotenv import load_dotenv
+
+load_dotenv()
 import io
 import json
 from typing import Annotated
@@ -9,7 +13,7 @@ from pptx.enum.shapes import MSO_SHAPE
 from pptx.dml.color import RGBColor
 import os
 from PIL import Image
-from dotenv import load_dotenv
+
 import pyaudio
 import requests
 import typer
@@ -26,8 +30,6 @@ from rich import print
 
 
 app = typer.Typer()
-
-load_dotenv()
 client = OpenAI()
 
 
@@ -271,4 +273,5 @@ def chat(
                   
 
 if __name__ == "__main__":
+
     app()

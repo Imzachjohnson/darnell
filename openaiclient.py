@@ -4,7 +4,6 @@ import os
 import requests
 from prompts import image_description
 
-load_dotenv()
 client = OpenAI()
 
 #TODO: Convert this to a class
